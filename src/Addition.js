@@ -13,6 +13,7 @@ export default function Addition({sender}) {
     }
   return (
     <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+        <br />
         <h2 style={{color: "orange"}}>Addition: </h2>
         <br />
         <br />

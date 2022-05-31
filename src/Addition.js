@@ -7,13 +7,13 @@ export default function Addition({sender}) {
     var sum
 
     if((numOne === '' || numOne === NaN) && (numTwo === '' || numTwo === NaN)) {
-        sum = 0;
+        sum = '';
     }else{
         sum = numOne + numTwo
     }
   return (
-    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-        <br />
+    <div style={{display: 'flex', justifyContent:'center', alignItems:'center', padding: '1%'}}>
+        <br></br>
         <h2 style={{color: "orange"}}>Addition: </h2>
         <br />
         <br />

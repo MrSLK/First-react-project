@@ -3,6 +3,7 @@ import Addition from './Addition';
 import Division from './Division';
 import Multiplication from './Multiplication';
 import Subtraction from './Subtraction';
+import Fibonacci from './Fibonacci';
 
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
     <Subtraction sender={myValues} />
     <Multiplication sender={myValues}  />
     <Division sender={myValues} />
+    <Fibonacci sender={myValues} />
     </>
   )
 }
